@@ -1,11 +1,12 @@
 # Gulp Default Config
 
-This is a gulp starter based on ([WPGulp](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner)
+This is a gulp starter based on ([WPGulp](https://github.com/ahmadawais/WPGulp))
 
-Usage:
-`git archive --remote=git@github.com:abisewski/gulp-config.git | tar -t`
-`npm install`
-`npm start`
+**Usage:**
+
+>-`npx degit git@github.com:abisewski/gulp-config.git` 
+>-`npm install`
+>-`npm start`
 
 Current archive paths config:
 
@@ -19,3 +20,6 @@ assets
 ```
 
 You can change folders/files path/names on `wpgulp.config.js`.
+
+git archive --format=tar --remote=git@github.com:abisewski/gulp-config.git HEAD | tar xf -
+rsync -rlp --exclude '.git' git@github.com:abisewski/gulp-config.git .
