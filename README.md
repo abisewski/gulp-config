@@ -1,4 +1,4 @@
-# Gulp Default Config
+# Gulp Config
 
 This is a gulp starter based on ([WPGulp](https://github.com/ahmadawais/WPGulp))
 
